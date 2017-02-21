@@ -52,7 +52,7 @@
  *   5 V (output)  =    = | x  x | =    = 5V (output)      ---> one of these can be used to power Arduino, connect to Arduino Vin.
  *                        --------
  * CREDITS/ FEEDBACK:
- * This code was written and is property of by Francien. 
+ * This code was written by and is property of Francien. 
  * Feedback welcome, please mail: framakers@hotmail.com (feb 2017).
  *
  */
