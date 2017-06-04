@@ -20,11 +20,15 @@ Copyright (C) 2017 F. Ramakers.
     For info, mail: framakers@hotmail.com (feb 2017).
 * --------------------------------------------------------------------------------
 
-This code was written to control a 'two phase bipolar' stepper motor (type number: STH-3D1126-02) from an HP C5110A flatbed scanner.
-The PCB in the scanner contains a driver PBL3775. The Arduino sends signals to this driver, which will in turn make the stepper motor move.
-In other words: I had an old flatbed scanner and wanted to see if I could move the motor inside with my Arduino. This is the code I have used. I have also tried to describe how I took it apart (although this is probably hard to understand without pictures. If I do have time, I might add them). 
+If the first line of this document makes no sense at all: 
+I had an old flatbed scanner and wanted to see if I could move the motor inside with my Arduino. 
+This is the code I have used. I have also tried to describe how I took it apart 
+(although this is probably hard to understand without pictures. If I do have time, I might add them). 
+This scanner contains a 'two phase bipolar' stepper motor (type number: STH-3D1126-02), it is a HP C5110A flatbed scanner.
+The PCB in the scanner contains driver PBL3775. 
+The Arduino sends signals to this driver, which will in turn make the stepper motor move. 
+The rest of the scanner no longer works, so this code is usefull if you would like to take the stepper motor + driver out of the scanner in order to use it in another project.
 
- The PCB in the scanner contains a driver PBL3775. The Arduino sends signals to this driver, which will in turn make the stepper motor move.
  I have used an Arduino UNO, I expect it to work with other types of arduino, but this has not been tested.
  
  PURPOSE OF THIS CODE:
